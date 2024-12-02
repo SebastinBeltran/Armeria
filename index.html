@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DUNGEON ARMS</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="img/icono1.png" type="image/x-icon">
+  
+</head>
+
+<body>
+  <header class="head">
+    <div>
+      <img src="img/icono2.png" height="30px" alt="">
+      <h1>Dungeon Arms</h1>
+      <img src="img/icono2.png" height="30px" alt="">
+    </div>
+    <div class="buscar">
+      <input type="search" placeholder="Buscar..." id="buscar" class="buscar__input" data-busqueda>
+      <label for="buscar">
+        <img src="img/lupa.png" width="25px" alt="">
+      </label>
+    </div>
+  </header>
+  <main class="main">
+    <section class="seccionProductos">
+      <h2 class="titulo">LISTA DE PRODUCTOS</h2>
+      <div class="bloqueProductos">
+      </div>
+    </section>
+    <aside class="ingresoProducto">
+      <h2>AGREGAR PRODUCTOS:</h2>
+      <form action="" class="formulario">
+        <input data-name placeholder="Nombre del producto..." type="text">
+        <input data-price placeholder="Precio..." type="text">
+        <input data-imagen placeholder="Imagen..." type="text">
+        <button type="submit" class="btn-submit">Enviar...</button>
+      </form>
+    </aside>
+  </main>
+  <footer class="foot">
+    <div >
+      <img src="img/icono2.png" height="30px" alt="">
+      <h1>Dungeon Arms</h1>
+      <img src="img/icono2.png" height="30px" alt="">
+    </div>
+    <p>Desarrollado por Juan Sebastián Beltrán Uribe</p>
+  </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script type="module" src="./js/mostrarProductos.js"></script>
+<script type="module" src="./js/crearProducto.js"></script>
+<script type="module" src="./js/eliminarProducto.js"></script>
+<script type="module" src="./js/BuscarProducto.js"></script>
+</html>

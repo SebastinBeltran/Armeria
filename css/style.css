@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.head{
+    background-color: #8A817C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buscar{
+    width: 20%;
+    position: fixed;
+    right: 100px;
+}
+.buscar input,
+.ingresoProducto input{
+    width: 80%;
+    height: 30px;
+    border-radius: 15px;
+    padding-left: 10px;
+    color: #253031;
+    font-weight: 750;
+    align-self: center;
+}
+
+.buscar input:focus::placeholder,
+.formulario input:focus::placeholder{
+    color: brown;
+    
+}
+
+.buscar input:focus,
+.formulario input:focus{
+    outline: none;
+    border-bottom: brown 2px solid;
+}
+.buscar img:hover{
+    transform: scale(1.2);
+}
+.foot{
+    background-color: #8A817C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px; 
+}
+
+.head div,
+.foot div{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 10px  
+}
+
+.main{
+    background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+}
+
+.seccionProductos{
+    width: 55%;
+    overflow-y: scroll;
+    padding: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    color: white;
+    text-shadow: #0C1713 1px 1px;
+}
+
+.bloqueProductos{
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    display: flex;
+}
+
+.card{
+    background-color: #0C1713;
+    color: white;
+    padding: 10px;
+    box-shadow: 7px 7px 7px black;
+}
+.card:hover{
+    transform: scale(1.1);
+    border: white 1px solid;
+    box-shadow: none;
+
+}
+.ingresoProducto{
+    padding: 30px 0px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    color: white;
+    text-shadow: #0C1713 1px 1px;
+}
+
+.ingresoProducto button{
+    width: 35%;
+    height: 35px;
+    align-self: center;
+    color: white;
+    background-color: #323c3d;
+}
+
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-borrar{
+    background-color: transparent;
+    filter: invert();
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    text-shadow: 2px 2px 2px #253031; 
+}
+
+.formulario{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+@media (max-width:768px){
+    .buscar{
+        /* position: ; */
+        width: 20%;
+        right: 10px;
+    }
+    .main{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .seccionProductos{
+        width: 100%;
+
+    }
+    .ingresoProducto{
+        width: 80%;
+    }
+}
+
+@media (max-width:500px){
+    .head{
+        font-size: 10px;
+    }
+}

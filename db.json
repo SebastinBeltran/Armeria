@@ -1,0 +1,76 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "imagen": "img/Hojas del caos.jpeg",
+      "titulo": "Hojas del Caos",
+      "precio": "$1.500.000"
+    },
+    {
+      "id": 2,
+      "imagen": "img/Yamato.jpg",
+      "titulo": "Yamato",
+      "precio": "$490.000"
+    },
+    {
+      "imagen": "https://rva-katana.com/cdn/shop/files/7D6E736A-26AA-4695-B1F4-DE287E59AA1C.heic?v=1703263622&width=1445",
+      "titulo": "Tenza Zangetsu",
+      "precio": "$170.000",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "imagen": "img/Mjornir.jpeg",
+      "titulo": "Martillo Mjornir",
+      "precio": "$580.000"
+    },
+    {
+      "id": 5,
+      "imagen": "img/Master Sword.jpeg",
+      "titulo": "Master Sword",
+      "precio": "$290.000"
+    },
+    {
+      "id": 6,
+      "imagen": "img/Hacha de Leviatan.webp",
+      "titulo": "Hacha de Leviatan",
+      "precio": "$250.000"
+    },
+    {
+      "id": 7,
+      "imagen": "img/Espada laser.jpeg",
+      "titulo": "Espada laser",
+      "precio": "$890.000"
+    },
+    {
+      "id": 8,
+      "imagen": "img/Buster Sword.webp",
+      "titulo": "Buster Sword",
+      "precio": "$180.000"
+    },
+    {
+      "id": 9,
+      "imagen": "img/Lion Heart Gunblade.jpeg",
+      "titulo": "Lion Heart Gunblade",
+      "precio": "$630.000"
+    },
+    {
+      "id": 10,
+      "imagen": "img/yoru.jpeg",
+      "titulo": "Yoru",
+      "precio": "$630.000"
+    },
+    {
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_837159-MCO75175372838_032024-O.webp",
+      "titulo": "Espada del Augurio",
+      "precio": "$480.000",
+      "id": 11
+    },
+    {
+      "imagen": "https://m.media-amazon.com/images/I/41GTCk6MzHL._AC_UF1000,1000_QL80_.jpg",
+      "titulo": "Rebellion",
+      "precio": "$950.000",
+      "id": 12
+    }
+  ]
+}
