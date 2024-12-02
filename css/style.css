@@ -55,7 +55,8 @@
     display: flex;
     justify-content: center;
     align-items: center; 
-    gap: 10px  
+    gap: 10px;
+    text-shadow: #d4b550 1px 1px 1px;
 }
 
 .main{
@@ -97,7 +98,7 @@
 }
 .card:hover{
     transform: scale(1.1);
-    border: white 1px solid;
+    border: #d4b550 1px solid;
     box-shadow: none;
 
 }
@@ -120,6 +121,10 @@
     background-color: #323c3d;
 }
 
+.ingresoProducto button:hover{
+    background-color: #d4b550;
+    color: #0C1713;
+}
 
 .info{
     display: flex;
@@ -130,6 +135,10 @@
 .btn-borrar{
     background-color: transparent;
     filter: invert();
+}
+.btn-borrar:hover{
+    filter: none;
+    background-color: #d4b550;
 }
 
 .texto{
@@ -148,7 +157,7 @@
 
 @media (max-width:768px){
     .buscar{
-        /* position: ; */
+        position: absolute;
         width: 20%;
         right: 10px;
     }
@@ -162,6 +171,9 @@
     }
     .ingresoProducto{
         width: 80%;
+    }
+    .main{
+        height: 600px;
     }
 }
 
